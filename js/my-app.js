@@ -12,7 +12,7 @@ var myApp = new Framework7({
 		swipe: 'left',
 	},
 	dialog: {
-    		title: 'Grand Hotel',
+    	title: 'Grand Hotel',
   	},
 	popup: {
 		closeByBackdropClick: false,
@@ -22,9 +22,9 @@ var myApp = new Framework7({
 	},
 	routes: [
 		{
-		path: '/about/',
-    		url: 'about.html',
-    		name: 'about',
+			path: '/info/',
+    		url: 'info.html',
+    		name: 'info',
   		}
 	]
     // ... other parameters
