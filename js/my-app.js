@@ -4,9 +4,7 @@ var myApp = new Framework7({
 	root:'#app',
 	theme: 'md',
     modalTitle: 'Framework7',
-	panel: {
-    	swipe: 'left',
-  	},
+	
 	cache:false,
 	pushState:false,
 	swipeBackPage:true,
