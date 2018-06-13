@@ -5,7 +5,7 @@ var myApp = new Framework7({
 	theme: 'md',
    	view: {
 		xhrCache: false,
-		pushState: false,
+		pushState: true,
 		uniqueHistory: true,
 	},
 	panel: {
