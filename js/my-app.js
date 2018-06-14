@@ -3,28 +3,25 @@ var myApp = new Framework7({
 	// Default title for modals
 	root:'#app',
 	theme: 'md',
-   	view: {
-		xhrCache: false,
-		pushState: true,
-		uniqueHistory: true,
-	},
+    modalTitle: 'Framework7',
 	panel: {
-		swipe: 'left',
-	},
-	dialog: {
-    	title: 'Grand Hotel',
+    	swipe: 'left',
   	},
-	popup: {
-		closeByBackdropClick: false,
-	},
-	toolbar: {
-		hideOnPageScroll: true,
-	},
+	cache:false,
+	pushState:false,
+	swipeBackPage:true,
+    swipePanel: 'left',
+	material: true,
 	routes: [
 		{
-			path: '/info/',
-    		url: 'info.html',
-    		name: 'info',
+		path: '/breakfast/',
+    	url: 'breakfast.html',
+    	name: 'breakfast',
+  		},
+		{
+		path: '/drinks/',
+    	url: 'drinks.html',
+    	name: 'drinks',
   		}
 	]
     // ... other parameters
