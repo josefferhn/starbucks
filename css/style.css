@@ -22,6 +22,7 @@ h1,h2,h3,h4,h5,h6{
 	text-align: center;
 	padding: 25% 0;
 	position: relative;
+	margin: 2px 0;	
 }
 .bg-breakfast{
 	background-image: url(../img/breakfast-bg.jpg);
@@ -53,6 +54,82 @@ h1,h2,h3,h4,h5,h6{
 .info-menu{
 	display: block;
 }
+
+#home h4{
+	font-size: 24px;
+}
+
+
+#menu .card-header{
+	font-size: 14px;
+	color: #606162;
+	font-weight: 600;
+	justify-content: center;
+}
+#menu .card-header::after{
+	background-color: transparent;
+}
+#menu .card-footer{
+	color: #0D9F67;
+	font-weight: 600;
+	text-align: center;
+	justify-content: center;
+}
+#menu .card-footer::before{
+	background-color: transparent;
+}
+#menu .card-content img{
+	max-height: 140px;
+}
+
+#nav-list .icon{
+	color: #0D9F67;
+}
+.item-media::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0,0,0,.12);
+    display: block;
+    z-index: 15;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+
+#producto .info-producto{
+	border: 1px solid #C7C7C7;
+	margin: 32px 20px;
+	padding: 20px;
+}
+
+#producto .icon{
+	color:#C7C7C7;
+}
+
+#producto .precio{
+	text-align: right;
+	color: #0D9F67;
+	font-weight: 600;
+	float: right;
+}
+#producto .texto{
+	color:#929AA4;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
